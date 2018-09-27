@@ -62,6 +62,6 @@ random_back_colour = colour_picker()
 random_scroll_speed = speed_picker()
 
 sense.set_rotation(0)
-sense.show_message("Let me be correct", text_colour = random_text_colour,\
-                                        back_colour = random_back_colour,\
-                                        scroll_speed = random_scroll_speed)
+sense.show_message("Displaying message in chosen colours and speed", text_colour = random_text_colour,\
+                                                                      back_colour = random_back_colour,\
+                                                                      scroll_speed = random_scroll_speed)
